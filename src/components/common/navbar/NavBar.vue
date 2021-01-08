@@ -18,7 +18,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .nav-bar {
   display: flex;
   height: 44px;
@@ -26,11 +26,11 @@ export default {
   text-align: center;
 }
 
-.left,.right {
+.left,
+.right {
   width: 60px;
 }
-.center{
+.center {
   flex: 1;
 }
-
 </style>

@@ -24,7 +24,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .my-swipe .van-swipe-item {
   color: #fff;
   text-align: center;
@@ -34,5 +34,6 @@ export default {
   height: auto;
   max-width: 100%;
   max-height: 100%;
+  width: 100%;
 }
 </style>

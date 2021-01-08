@@ -1,5 +1,9 @@
 <template>
-  <div class="feature"></div>
+  <div class="feature">
+    <a href="https://www.baidu.com">
+      <img src="~assets/img/home/recommend_bg.jpg" alt="" />
+    </a>
+  </div>
 </template>
 
 <script>
@@ -14,5 +18,8 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+.feature img{
+  width: 100%;
+}
 </style>

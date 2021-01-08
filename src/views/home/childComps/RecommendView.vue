@@ -29,7 +29,7 @@ export default {
 };
 </script>
 
-<style>
+<style content>
 .recommend {
   display: flex;
   text-align: center;

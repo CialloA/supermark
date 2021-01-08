@@ -9,7 +9,7 @@
       />
       <div slot="item-text">1</div>
     </tab-bar-item>
-    <tab-bar-item path="/Profile">
+    <tab-bar-item path="/category">
       <img slot="item-icon" src="~assets/img/tabbar/category.svg" alt="" />
       <img
         slot="item-icon-active"
@@ -57,5 +57,5 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 </style>
